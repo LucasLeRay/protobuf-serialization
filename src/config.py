@@ -6,7 +6,7 @@ from src.directories import directories
 
 @dataclass
 class _Config:
-    message_path: Path = directories.artefacts_dir / "person"
+    compiled_regressor_path: Path = directories.artefacts_dir / "regressor"
 
 
 config = _Config()

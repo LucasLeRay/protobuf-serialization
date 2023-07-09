@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LinearRegressorState {
+    repeated float coef = 1;
+    float intercept = 2;
+}
